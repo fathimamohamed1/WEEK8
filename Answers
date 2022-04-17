@@ -1,0 +1,16 @@
+What does this Vue warning message mean?
+
+This is a warning that is showing a click event is being connected to a method that hasnt been created yet
+
+Can you safely ignore it?
+
+Yes if you are in the middle of still creating the method you can ignore but if you are done and expect the app to work then you should not ignore and
+look and see where the error is coming from
+
+What causes it, and how do you fix it?
+
+ What causes trhe warning is when a method is connected to a click even and its still hasnt been created , you fix it by buidling the method correctly that is connected to the click event
+
+
+
+
